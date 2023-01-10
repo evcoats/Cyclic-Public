@@ -7,4 +7,3 @@ Additional Discord bot in development for automatic collection of votes
 http://www.Cyclic.Games
 
 Hosted at The Bishop's School and UIUC
-
