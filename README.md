@@ -1,4 +1,4 @@
-Project for automating the moderation of live-action games of "Assassin" or "Assassins"
+Project for automating the moderation of live-action games of "Assassin" or "Paranoia"
 
 Django, AWS Elastic Beanstalk, JavaScript
 
