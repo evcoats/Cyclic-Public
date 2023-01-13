@@ -1,3 +1,5 @@
+#REST_API from lines 30-207 and 259-267
+#URLS from lines 208-258
 from django.urls import path
 from django.contrib.auth import views as auth_views
 from django.conf.urls import include
@@ -17,16 +19,12 @@ from . import views
 #Authentication:
 #curl --data "username=USERNAME_HERE&password=PASSWORD_HERE" http://cyclic.games/api-token-auth/
 
-#REST_API_COMMANDS
+#REST_API_Commands (see lines 259-267)
 #curl -X GET http://cyclic.games/gamesData/ -H "Authorization: Token TOKEN_HERE"
-#curl -X GET http://cyclic.games/getTarget/84 -H "Authorization: Token TOKEN_HERE"
-#curl -X GET http://cyclic.games/getLeaderboard/97 -H "Authorization: Token TOKEN_HERE"
-#curl -X GET http://cyclic.games/getTarget/84 -H "Authorization: Token TOKEN_HERE"
-
-
-#curl -X GET http://cyclic.games/getTarget/84 -H "Authorization: Token TOKEN_HERE"
-
-#curl -X GET http://cyclic.games/increaseScore/96/270/5 -H "Authorization: Token TOKEN_HERE"
+#curl -X GET http://cyclic.games/getTarget/PLAYER_ID -H "Authorization: Token TOKEN_HERE"
+#curl -X GET http://cyclic.games/getLeaderboard/GAME_ID -H "Authorization: Token TOKEN_HERE"
+#curl -X GET http://cyclic.games/getTarget/TARGET_ID -H "Authorization: Token TOKEN_HERE"
+#curl -X GET http://cyclic.games/increaseScore/GAME_ID/PLAYER_ID/AMOUNT -H "Authorization: Token TOKEN_HERE"
 
 
 # Serializers define the API representation.
@@ -84,8 +82,6 @@ class TargetSerializer(serializers.ModelSerializer):
 
     def get_userID(self,obj):
         return obj.userID
-
-
 
 class GamePlayerSerializer(serializers.ModelSerializer):
     id = serializers.ReadOnlyField()
