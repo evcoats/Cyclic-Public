@@ -2,7 +2,7 @@ Project for automating the moderation of large-scale live-action games of "Assas
 
 Moderators, players, and fans choose and vote on rulesets which maximize potential for game enjoyment
 
-Django, AWS EB/EC2, JavaScript
+Django, AWS EB/EC2, JavaScript, React
 
 Additional Discord bot in development for automatic collection of votes
 
