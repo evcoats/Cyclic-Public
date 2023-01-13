@@ -1,6 +1,6 @@
 Project for automating the moderation of large-scale live-action games of "Assassins"
 
-Moderators, players, and fans choose and vote on rulesets which maximize potential for game enjoyment
+Moderators, players, and fans choose and vote on rulesets which maximize potential for game enjoyment and ease of moderation
 
 Django, AWS EB/EC2, JavaScript, React
 
