@@ -1,5 +1,5 @@
-#REST_API from lines 30-207 and 259-267
-#URLS from lines 208-258
+#REST_API from lines 30-206 and 258-266
+#URLS from lines 207-257
 from django.urls import path
 from django.contrib.auth import views as auth_views
 from django.conf.urls import include
@@ -25,7 +25,6 @@ from . import views
 #curl -X GET http://cyclic.games/getLeaderboard/GAME_ID -H "Authorization: Token TOKEN_HERE"
 #curl -X GET http://cyclic.games/getTarget/TARGET_ID -H "Authorization: Token TOKEN_HERE"
 #curl -X GET http://cyclic.games/increaseScore/GAME_ID/PLAYER_ID/AMOUNT -H "Authorization: Token TOKEN_HERE"
-
 
 # Serializers define the API representation.
 class TestAuthView(APIView):
