@@ -10,7 +10,7 @@ http://www.Cyclic.Games
 
 Hosted at The Bishop's School and UIUC
 
-Private repo initially developed in 2019
+Private repo initialized in 2019
 
 urls.py for REST API use is included
 
