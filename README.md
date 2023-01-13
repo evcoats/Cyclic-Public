@@ -8,7 +8,7 @@ http://www.Cyclic.Games
 
 Hosted at The Bishop's School and UIUC
 
-urls.py Commands for REST framework use are included below
+urls.py commands for REST framework use are included below
 
 ```
 curl --data "username=USERNAME_HERE&password=PASSWORD_HERE" http://cyclic.games/api-token-auth/
