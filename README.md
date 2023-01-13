@@ -8,7 +8,7 @@ http://www.Cyclic.Games
 
 Hosted at The Bishop's School and UIUC
 
-urls.py commands for REST API use are included below
+urls.py for REST API use is included below
 
 ```
 curl --data "username=USERNAME_HERE&password=PASSWORD_HERE" http://cyclic.games/api-token-auth/
