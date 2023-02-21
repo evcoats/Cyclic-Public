@@ -1,4 +1,4 @@
-Project for automating the moderation of large-scale live-action games of "Assassins"
+Project for automating the moderation of large-scale live-action games of live action games
 
 Moderators, players, and fans choose and vote on rulesets which maximize potential for game enjoyment and ease of moderation
 
